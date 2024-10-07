@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), SQL document design file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<Document>
+  <Properties>
+    <Type>SQL Document Design</Type>
+    <DatabaseProvider>59f90733-4d68-4fdf-82a7-f0fcbf5460aa</DatabaseProvider>
+    <ProviderVersion>10.0.225.0</ProviderVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </Properties>
+  <Connection>
+    <ConnectionModel>
+      <PropertyValue Name="Database">59f90733-4d68-4fdf-82a7-f0fcbf5460aa</PropertyValue>
+      <PropertyValue Name="Id">38035d24-0b73-4021-8cc4-345a3e03562f</PropertyValue>
+      <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=root;Host=localhost;Port=3308;Character Set=utf8</PropertyValue>
+    </ConnectionModel>
+    <Database>vanphongpham</Database>
+  </Connection>
+  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="56">
+    <View Name="Design" Visible="True">
+      <Data>
+        <StatementType>Select</StatementType>
+      </Data>
+    </View>
+    <View Name="Code" Active="True" Visible="True">
+      <Data />
+    </View>
+    <View Name="Data" Visible="True" />
+    <View Name="Profiler" Visible="True" />
+    <View Name="PivotGrid" Visible="True">
+      <Data>
+        <NativePivotGrid>
+          <DataSource Visible="True" Width="240" />
+          <XtraSerializer version="1.0" application="PivotGrid">
+  <property name="#LayoutVersion" />
+  <property name="#LayoutScaleFactor">@4,Width=1.25@4,Height=1.25</property>
+  <property name="FixedColumnFieldValues" iskey="true" value="0" />
+  <property name="Fields" iskey="true" value="4">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="CustomTotals" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true" />
+      </property>
+      <property name="ImageIndex">-1</property>
+      <property name="ToolTips" isnull="true" iskey="true">
+        <property name="HeaderText" />
+        <property name="ValueText" />
+      </property>
+      <property name="FieldEditName" />
+      <property name="Name">Xprod_id</property>
+      <property name="FieldName">prod_id</property>
+      <property name="Caption">prod_id</property>
+      <property name="TotalsVisibility">CustomTotals</property>
+      <property name="Tag" isnull="true" />
+      <property name="Index">0</property>
+      <property name="MinWidth">25</property>
+      <property name="Width">125</property>
+      <property name="Visible">false</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="CustomTotals" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true" />
+      </property>
+      <property name="ImageIndex">-1</property>
+      <property name="ToolTips" isnull="true" iskey="true">
+        <property name="HeaderText" />
+        <property name="ValueText" />
+      </property>
+      <property name="FieldEditName" />
+      <property name="Name">Xorder_id</property>
+      <property name="FieldName">order_id</property>
+      <property name="Caption">order_id</property>
+      <property name="TotalsVisibility">CustomTotals</property>
+      <property name="Tag" isnull="true" />
+      <property name="Index">1</property>
+      <property name="MinWidth">25</property>
+      <property name="Width">125</property>
+      <property name="Visible">false</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="CustomTotals" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true" />
+      </property>
+      <property name="ImageIndex">-1</property>
+      <property name="ToolTips" isnull="true" iskey="true">
+        <property name="HeaderText" />
+        <property name="ValueText" />
+      </property>
+      <property name="FieldEditName" />
+      <property name="Name">Xquantity</property>
+      <property name="FieldName">quantity</property>
+      <property name="Caption">quantity</property>
+      <property name="TotalsVisibility">CustomTotals</property>
+      <property name="Tag" isnull="true" />
+      <property name="Index">2</property>
+      <property name="MinWidth">25</property>
+      <property name="Width">125</property>
+      <property name="Visible">false</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="CustomTotals" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true" />
+      </property>
+      <property name="ImageIndex">-1</property>
+      <property name="ToolTips" isnull="true" iskey="true">
+        <property name="HeaderText" />
+        <property name="ValueText" />
+      </property>
+      <property name="FieldEditName" />
+      <property name="Name">Xprice</property>
+      <property name="FieldName">price</property>
+      <property name="Caption">price</property>
+      <property name="TotalsVisibility">CustomTotals</property>
+      <property name="Tag" isnull="true" />
+      <property name="Index">3</property>
+      <property name="MinWidth">25</property>
+      <property name="Width">125</property>
+      <property name="Visible">false</property>
+    </property>
+  </property>
+  <property name="Prefilter" isnull="true" iskey="true">
+    <property name="Enabled">true</property>
+  </property>
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="HorizontalScrolling">Control</property>
+  </property>
+  <property name="OptionsCustomization" isnull="true" iskey="true">
+    <property name="AllowHideFields">Always</property>
+  </property>
+  <property name="OptionsChartDataSource" isnull="true" iskey="true">
+    <property name="FieldValuesProvideMode">DisplayText</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="Groups" iskey="true" value="0" />
+  <property name="FormatRules" iskey="true" value="0" />
+  <property name="FormatConditions" iskey="true" value="0" />
+</XtraSerializer>
+        </NativePivotGrid>
+        <NativeChart Visible="True" Width="479">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ChartXmlSerializer version="23.1.4.0"&gt;
+  &lt;Chart AppearanceNameSerializable="Default" SelectionMode="None" SeriesSelectionMode="Series"&gt;
+    &lt;AutoSeriesCheckedInLegendStates&gt;
+      &lt;Item1 AutoSeriesName="Grand Total" CheckState="true" /&gt;
+    &lt;/AutoSeriesCheckedInLegendStates&gt;
+    &lt;DataContainer BoundSeriesSorting="None" SeriesDataMember="Series" ValidateDataMembers="true"&gt;
+      &lt;SeriesTemplate SeriesDataMember="Series" ArgumentDataMember="Arguments" ValueDataMembersSerializable="Values" ArgumentScaleType="Qualitative" /&gt;
+    &lt;/DataContainer&gt;
+    &lt;Diagram RuntimePaneCollapse="true" RuntimePaneResize="false" PaneLayoutDirection="Vertical" TypeNameSerializable="XYDiagram"&gt;
+      &lt;AxisX VisibleInPanesSerializable="-1" /&gt;
+      &lt;AxisY VisibleInPanesSerializable="-1" /&gt;
+      &lt;SelectionOptions /&gt;
+    &lt;/Diagram&gt;
+    &lt;Legend CrosshairContentOffset="4" MaxCrosshairContentWidth="50" MaxCrosshairContentHeight="0" LegendID="-1" MaxHorizontalPercentage="30" /&gt;
+  &lt;/Chart&gt;
+&lt;/ChartXmlSerializer&gt;</NativeChart>
+      </Data>
+    </View>
+  </Views>
+</Document>
